@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Logic's Blog
+subtitle: 'Littlebox Inc.'
+description: '馨香盈怀袖, 路远莫致之.'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: Logic
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://littlebox-logic.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -37,11 +37,11 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: 'https://github.com/Littlebox-Logic/'
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
-relative_link: false
+relative_link: 'https://github.com/Littlebox-Logic/'
 future: true
 highlight:
   enable: true
@@ -97,9 +97,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:Littlebox-Logic/littlebox-logic.github.io.git
+  branch: main
