@@ -1,5 +1,5 @@
 @font-face{
     font-family: '一点明体';
     font-display: swap;
-	src: url('./I.Ming-8.00.ttf') format("truetype");
+	src: url('/fonts/I.Ming-8.00.ttf') format("truetype");
 }
